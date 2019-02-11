@@ -35,3 +35,9 @@ function prependKitten(name)
   var hit = kittens
   return hit
 }
+function removeLastKitten()
+{
+  kittens.pop()
+  var kit = kittens
+  return kit
+}
