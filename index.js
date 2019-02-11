@@ -30,7 +30,7 @@ function appendKitten(name)
 //var kit = destructivelyRemoveFirstKitten()
 function prependKitten(name)
 {
-  
+  var kittens = ["Milo", "Otis", "Garfield"]
   kittens.unshift(name)
   //destructivelyRemoveFirstKitten()
   var hit = kittens
