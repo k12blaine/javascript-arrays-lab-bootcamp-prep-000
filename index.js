@@ -26,7 +26,7 @@ function appendKitten(name)
   var kit = kittens.concat(name)
   return kit
 }
-destructivelyRemoveFirstKitten()
+var kit = destructivelyRemoveFirstKitten()
 function prependKitten(name)
 {
   kittens.unshift(name)
