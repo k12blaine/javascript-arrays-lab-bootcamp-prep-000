@@ -31,7 +31,7 @@ function prependKitten(name)
 {
   
   kittens.unshift(name)
-  //destructivelyRemoveFirstKitten()
+  destructivelyRemoveFirstKitten()
   var hit = kittens
   return hit
 }
