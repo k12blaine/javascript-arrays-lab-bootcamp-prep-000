@@ -43,3 +43,10 @@ function removeLastKitten()
   var kit = kittens
   return kit
 }
+function removeFirstKitten()
+{
+  var kittens = ["Milo", "Otis", "Garfield"]
+  kittens.shift()
+  var kit = kittens
+  return kit
+}
