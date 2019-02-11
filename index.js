@@ -30,6 +30,6 @@ function appendKitten(name)
 function prependKitten(name)
 {
   kittens.unshift(name)
-  var kit = kittens
-  return kit
+  var hit = kittens
+  return hit
 }
