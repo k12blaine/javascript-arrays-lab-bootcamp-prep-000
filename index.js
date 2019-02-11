@@ -29,6 +29,7 @@ function appendKitten(name)
 //var kit = destructivelyRemoveFirstKitten()
 function prependKitten(name)
 {
+  destructivelyRemoveFirstKitten()
   kittens.unshift(name)
   var hit = kittens
   return hit
